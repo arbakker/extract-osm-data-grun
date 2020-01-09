@@ -8,7 +8,7 @@ Requires:
 
 ## extract_osm_data
 
-Outputs results in geopackage `data/poi.gpkg`.
+Outputs results in geopackage `data/poi.gpkg` (example [output](https://www.dropbox.com/s/kme72uwaha1wieg/poi.gpkg))
 
 Script does the following:
 - downloads osm dataset of province of Groningen
