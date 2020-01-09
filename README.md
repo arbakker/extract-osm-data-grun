@@ -20,7 +20,7 @@ Script does the following:
 
 ## extract_osm_data
 
-Outputs results in txt file `data/unique_other_tags.txt`. 
+Outputs results in txt file `data/unique_other_tags.txt` (example [output](https://www.dropbox.com/s/d5mgrnpcsj7q3jm/unique_other_tags.txt))
 
 Script does the following:
 - outputs all unique values in the other_tags attribute  for exploration
