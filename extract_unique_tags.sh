@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # extact other_tags attribute from all points except addresses with housenumber
-ogrinfo -geom=NO -nocount -noextent data/groningen-latest.gpkg -sql "select other_tags from points where other_tags NOT LIKE '%addr:housenumber%'" > data/other_tags_ogr.txt
+ogrinfo -geom=NO -nocount -noextent data/groningen-stad-points.gpkg -sql "select other_tags from points where other_tags NOT LIKE '%addr:housenumber%'" > data/other_tags_ogr.txt
 # remove all the redundant ogrinfo output
 grep "other_tags" <data/other_tags_ogr.txt > data/other_tags.txt
 # select only the uniqu other_tags values
